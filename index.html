@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Menu responsive</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="header__logo">Nidhal Abassi</a>
+
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
+
+                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+    
+                    <div class="nav__perfil">
+                        <div class="nav__img">
+                            <img  id="logos src="assets/img/odyz.png" alt="">
+                        </div>
+                        
+                        <div>
+                            <a href="#" class="nav__name">Nidhal Abassi</a>
+                            <span class="nav__profesion">Web designer & dev</span>
+                        </div>
+                    </div>
+    
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="nav__social">
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-behance"></ion-icon></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="nidhal">
+            <svg id="nidhal" 
+            width="490" height="123" viewBox="0 0 490 123" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M95.5 121H69.85L26.95 56.05V121H1.3V15.7H26.95L69.85 80.95V15.7H95.5V121Z" stroke="#E3E3E3"/>
+                <path d="M126.993 28.6C122.493 28.6 118.793 27.3 115.893 24.7C113.093 22 111.693 18.7 111.693 14.8C111.693 10.8 113.093 7.49998 115.893 4.89998C118.793 2.19998 122.493 0.849976 126.993 0.849976C131.393 0.849976 134.993 2.19998 137.793 4.89998C140.693 7.49998 142.143 10.8 142.143 14.8C142.143 18.7 140.693 22 137.793 24.7C134.993 27.3 131.393 28.6 126.993 28.6ZM139.743 37.3V121H114.093V37.3H139.743Z" stroke="#E3E3E3"/>
+                <path d="M153.231 79C153.231 70.4 154.831 62.85 158.031 56.35C161.331 49.85 165.781 44.85 171.381 41.35C176.981 37.85 183.231 36.1 190.131 36.1C195.631 36.1 200.631 37.25 205.131 39.55C209.731 41.85 213.331 44.95 215.931 48.85V9.99998H241.581V121H215.931V109C213.531 113 210.081 116.2 205.581 118.6C201.181 121 196.031 122.2 190.131 122.2C183.231 122.2 176.981 120.45 171.381 116.95C165.781 113.35 161.331 108.3 158.031 101.8C154.831 95.2 153.231 87.6 153.231 79ZM215.931 79.15C215.931 72.75 214.131 67.7 210.531 64C207.031 60.3 202.731 58.45 197.631 58.45C192.531 58.45 188.181 60.3 184.581 64C181.081 67.6 179.331 72.6 179.331 79C179.331 85.4 181.081 90.5 184.581 94.3C188.181 98 192.531 99.85 197.631 99.85C202.731 99.85 207.031 98 210.531 94.3C214.131 90.6 215.931 85.55 215.931 79.15Z" stroke="#E3E3E3"/>
+                <path d="M311.588 36.4C321.188 36.4 328.888 39.6 334.688 46C340.488 52.3 343.388 61 343.388 72.1V121H317.888V75.55C317.888 69.95 316.438 65.6 313.538 62.5C310.638 59.4 306.738 57.85 301.838 57.85C296.938 57.85 293.038 59.4 290.138 62.5C287.238 65.6 285.788 69.95 285.788 75.55V121H260.138V9.99998H285.788V48.55C288.388 44.85 291.938 41.9 296.438 39.7C300.938 37.5 305.988 36.4 311.588 36.4Z" stroke="#E3E3E3"/>
+                <path d="M356.112 79C356.112 70.4 357.712 62.85 360.912 56.35C364.212 49.85 368.662 44.85 374.262 41.35C379.862 37.85 386.112 36.1 393.012 36.1C398.912 36.1 404.062 37.3 408.462 39.7C412.962 42.1 416.412 45.25 418.812 49.15V37.3H444.462V121H418.812V109.15C416.312 113.05 412.812 116.2 408.312 118.6C403.912 121 398.762 122.2 392.862 122.2C386.062 122.2 379.862 120.45 374.262 116.95C368.662 113.35 364.212 108.3 360.912 101.8C357.712 95.2 356.112 87.6 356.112 79ZM418.812 79.15C418.812 72.75 417.012 67.7 413.412 64C409.912 60.3 405.612 58.45 400.512 58.45C395.412 58.45 391.062 60.3 387.462 64C383.962 67.6 382.212 72.6 382.212 79C382.212 85.4 383.962 90.5 387.462 94.3C391.062 98 395.412 99.85 400.512 99.85C405.612 99.85 409.912 98 413.412 94.3C417.012 90.6 418.812 85.55 418.812 79.15Z" stroke="#E3E3E3"/>
+                <path d="M488.669 9.99998V121H463.019V9.99998H488.669Z" stroke="#E3E3E3"/>
+                </svg>
+        </div>
+        <div class="content">
+            <h1>
+                Welcome to my portfolio
+            </h1>
+            <p>
+                Build interactive web site with React, and best kooking , creative design
+            </p>
+        </div>
+        <div class="cv">
+            <a href="">Dawlaod CV</a>
+        </div>
+
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
